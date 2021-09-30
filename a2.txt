@@ -1,0 +1,440 @@
+Script started on 2021-09-30 05:18:22+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="200" LINES="57"]
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 1
+
+**********question 1***********************************
+]0;phans@f6linux17: ~phans@f6linux17:~$ ls
+[0m[01;34mAssigment-1[0m             [01;34mWorksheet-3[0m                        count.customers.52420369.txt  customers.12076615.txt  [01;34mfakeWorksheet3[0m      [01;34mproducts[0m                         [01;34mws2[0m
+Readme.txt              [01;34mWorksheet4-[0m                        customer100.txt               customers.52420369.txt  helpful100.txt      random.txt                       [01;34mws2_old[0m
+Reverse.customerID.txt  a2.txt                             customerID.txt                customers.53096571.txt  [01;34mmyproject[0m           sorted.customer_and_helpful.txt  ws3.txt
+Sorted.customerID.txt   amazon_reviews_us_Books_v1_02.tsv  customer_and_helpful.txt      [01;34mdatamash-1.3[0m            product_id.txt      [34;42mtemp[0m                             ws4.txt
+UserssphanDownloads     [01;34massign1[0m                            customer_and_helpful.txt.txt  [01;31mdatamash-1.3.tar.gz[0m     product_title.txt   testfile.txt
+[01;34mWS3[0m                     cmds.log                           [01;34mcustomers[0m                     [01;34mfake2[0m                   productid_top3.txt  [01;34mworksheet1[0m
+]0;phans@f6linux17: ~phans@f6linux17:~$ uniq -c product_title.txt | wc -l
+3103101
+]0;phans@f6linux17: ~phans@f6linux17:~$ un[K[Kecho un[K[K3103101 unique product titles
+3103101 unique product titles
+]0;phans@f6linux17: ~phans@f6linux17:~$ cd fake [K[K[K[K[Kw[Kfake
+fake2/          fakeWorksheet3/ 
+]0;phans@f6linux17: ~phans@f6linux17:~$ cd fake
+fake2/          fakeWorksheet3/ 
+]0;phans@f6linux17: ~phans@f6linux17:~$ cd fakeWorksheet3/
+]0;phans@f6linux17: ~/fakeWorksheet3phans@f6linux17:~/fakeWorksheet3$ cd [K Worksheet-3/
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ ls
+ID_helpfulness.txt  customerID.txt.sort       customerID_SortedReverse.txt  helpful.count.txt  product_id.reverse.txt  product_id.txt.sorted.uniq  ws3.txt
+cmds.log            customerID.txt.sort.uniq  customerID_Top3.txt           helpful.txt        product_id.txt.sorted   productid_top3.txt
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ wc -l product_id.txt.sorted.uniq 
+779734 product_id.txt.sorted.uniq
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ ec[K[Kec[K[Kecho 779734 unique re[K[K[K reviews 
+779734 unique reviews
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ echo 779734 unique reviews [C[6@wc -l product_id.txt.sorted.uniq[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KcustomerId[K[KID.txt.sort.uniq 
+1502381 customerID.txt.sort.uniq
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ echo 1502381 r[Kcu[K[Kreviews [K[Ked [K
+1502381 reviewed
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ echo 1502381 reviewed c[K[K[C reviewed[1@c[1@u[1@s[1@t[1@o[1@m[1@e[1@r[C[C reviewed[C[1Previewed[1@ 
+1502381 customer reviewed
+]0;phans@f6linux17: ~/fakeWorksheet3/Worksheet-3phans@f6linux17:~/fakeWorksheet3/Worksheet-3$ cd ..[K[K`[K~
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 2
+
+**********************question 2*********************************************
+
+
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv | head
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv | head[C[1P[1P[1P[1P[1P
+marketplace	customer_id	review_id	product_id	product_parent	product_title	product_category	star_rating	helpful_votes	total_votes	vine	verified_purchase	review_headline	review_body	review_date
+US	12076615	RQ58W7SMO911M	0385730586	122662979	Sisterhood of the Traveling Pants (Book 1)	Books	4	2	3	N	N	this book was a great learning novel!	this boook was a great one that you could learn from. it not only teaches the imponrtance of family and their values but it also deals with basic issues that teens and some kids even deal with.  this book is about 4 best friends who are for the first time in their lives spending their summer apart. one day they are all in one of the girls rooms and finds a pair of pants that were tucked away in her closet.  once all four  of them try them on they realize that there is really something special about these pants.  seeming as how all 4 girls are differnt shapes and sizes and somehow the pants fit all of them,  they realize that these pants were the start of something special.  immediatley following they decided to make up certian rules abut the pants such as you must write the best thing u did while wearing the pants over your summer on the right leg and also some silly things such as to \\"never pick yuor nose while wearing the pants.\\"  this book follows the girls throuh their summers in differnt places of the world and through all of the different obstacles that life takes them through. it can really teach you alot not only about what is going on around you but most imporntantly about yuorself.  i would give this book 4 stars and would reccommend it to anyone who seems the slihgtest bit interested.	2005-10-14
+US	12703090	RF6IUKMGL8SF	0811828964	56191234	The Bad Girl's Guide to Getting What You Want	Books	3	5	5	N	N	Fun Fluff	If you are looking for something to stimulate your brain, this isn't it.  However, if you are just looking for a good laugh, you'll enjoy The Bad Girl's Guide.  It's funny and light, and definitely a good way to pass a little bit of time.	2005-10-14
+US	12257412	R1DOSHH6AI622S	1844161560	253182049	Eisenhorn (A Warhammer 40,000 Omnibus)	Books	4	1	22	N	N	this isn't a review	never read it-a young relative idicated he liked it and somehow my name popped upon this--no more to say	2005-10-14
+US	50732546	RATOTLA3OF70O	0373836635	348672532	Colby Conspiracy (Colby Agency)	Books	5	2	2	N	N	fine author on her A-game	Though she is honored to be Chicago Woman of the Year, Victoria Colby-Camp is more euphoric over the mental improvement that her son Jim has shown recently especially since he and Tasha North fell in love.  Jim was snatched almost twenty years ago when he was seven and turned into the killing Seth whose goal was to murder Victoria for abandoning him.  However, her elation would turn to despair if she knew Seth resurfaced and started to rape a pregnant Tasha.<br /><br />Former military strategist Daniel Marks is in town complements of the Colby Agency that wants to hire him.  Also in Chicago is Emily Hastings whose father a veteran homicide detective was murdered.  She finds letters linking her dad to Victoria, the woman's long ago murdered first husband James, and her dad's first partner Marelyn Rutland that confuses her.  Soon she will meet Daniel and they will be embroiled in the COLBY CONSPIRACY that goes back almost two decades ago.<br /><br />Though the subplots can become confusing at first, once the audience comprehends how this complex superb suspense thriller starts to come together, they will want more Colby Agency tales; (see FILES FROM THE COLBY AGENCY: THE BODYGUARD'S BABY PROTECTIVE CUSTODY).  The ensemble cast is solid as fans will feel with Victoria who has overcome so much tragedy, hope Jim \\"defeats\\" Seth with Tasha at his side, and root for Daniel and Emily to make it while wondering what really happened two decades ago.  A final twist marks a strong Webb of deceit tale that showcases a fine author on her A-game.<br /><br />Harriet Klausner	2005-10-14
+US	51964897	R1TNWRKIVHVYOV	0262181533	598678717	The Psychology of Proof: Deductive Reasoning in Human Thinking	Books	4	0	2	N	N	Execellent cursor examination	Review based on a cursory examination by University of Phoenix students in Philosophy 251.  <br />We have found the book to be well organized, and detailed. The structure placed the information in an easy to read and presentable manner. <br />The use of strong and sound proofs by experiment and examples supported the overall logic of reasoning in a clear and concise manner. <br />We have found the book to be well thought out and laid out so the reader can learn and follow what is being explained. <br />	2005-10-14
+US	31048862	R2F53LI9KK9MOY	0316769487	862964341	The Catcher in the Rye	Books	4	2	2	N	N	Interesting, fun.	My only complaint is that this book was a bit repetative, and Holden's vocabulary only consists of 4 words: sonuvabitch, goddamn, lousy and phony. It was still quite humorous and the actual story was interesting.<br /><br />It was easy to read and to relate to, so you should pick it up if you're looking for a fun read. Some people complain about the lack of a plot, but to understand this book you need to read deeper into it. It's actually a lot more than some annoying kid's list of complaints about life.<br /><br />The story is about Holden Caulfield's coming of age and realizing that growing up is not a process that can be stopped. He had a lousy childhood, as he puts it, and wants to save other children from going though the things he experienced in his life. He is telling the story from a mental institution, which he was placed in after returning home from the fourth Prep school he had been kicked out of. He flashes back to the events leading up to his arrival at his home and tells the story of those 3 days.	2005-10-14
+US	53000124	R1KJ6MB7MRSQFF	0805076069	145341889	Bait and Switch: The (Futile) Pursuit of the American Dream	Books	4	9	11	N	N	I viewed this the opposite of Publisher's Weekly ...	This book is chilling and depressing indeed, though very well written and sprinkled with frequent humor.  I was sort of surprised however by the comment in Publisher's Weekly which said that \\"PW suspects that many of those buyers will be disappointed. Ehrenreich can't deliver the promised story because she never managed to get employed in the 'midlevel corporate world' she wanted to analyze.\\"  I never viewed that as being the \\"promised story\\" in the first place.  To me, the primary point of the book was to describe what it was like to actually try to ENTER that world in the first place rather than describing what life was like when she got there--and that she did.  In fact, I actually thought that she \\"lucked out\\" in a sense by having the bizarre, surreal experiences she did--not only did it make for more entertaining and more thought-provoking reading, but in my mind, if she HAD obtained a job right away, it would have taken away the whole raison d'etre of the book.  It would have been a completely different book in which she merely described her (presumably) boring mid-level corporate job, which probably would have been the same from day to day.  Thus, at least for purposes of writing the book, I think she was \\"lucky\\" that things worked out the way they did.  As for the reader who criticized her for not taking the \\"jobs\\" offered by AFLAC and Mary Kay, I thought those comments were bizarre.  I agree with Ms. Ehrenreich's point in that \\"jobs\\" such as these in which the employer offers no salary, no benefits, no office, no help and essentially takes no risk whatsoever can hardly be considered jobs in the traditional sense she was seeking.  In any event, it's really a pretty scary and depressing book, but one which I recommend.	2005-10-14
+US	29732693	R2XIM9LT335WHE	1581603681	640542054	Opening Combination Padlocks: No Tools, No Problem	Books	4	3	10	N	N	No Frills - Just The Facts	When looking for &lt;a href=\\"[...]\\">lock picking books&lt;/a>, this one is very informative. It will give one great ideas on opening padlocks, but the language is very basic, no frills here. This is not a romance novel, it's how to open locks without keys, and that's it. You will learn what you need to here. But you should always seek out more knowledge.	2005-10-14
+US	48541186	R1VE0FQQ0QTQJN	0300108834	915891133	A Little History of the World (Little Histories)	Books	5	16	20	N	Y	Simple, entertaining!	Never been much for enjoying history, but the style, brevity, and choice of subject matter come together very nicely in this book.	2005-10-14
+
+
+*************************Question 2  and Question 3  ***********************************************************
+
+
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "" -f 2,9 amazon_reviews_us_Books_v1_02.tsv | head[5@     
+customer_id	helpful_votes
+12076615	2
+12703090	5
+12257412	1
+50732546	2
+51964897	0
+31048862	2
+53000124	9
+29732693	3
+48541186	16
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv | head[K[K[K[K[K[K> customer_and_helpful.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customer_and_helpful.txt
+customer_id	helpful_votes
+12076615	2
+12703090	5
+12257412	1
+50732546	2
+51964897	0
+31048862	2
+53000124	9
+29732693	3
+48541186	16
+]0;phans@f6linux17: ~phans@f6linux17:~$ sort -nk2 --reverse  customer_and_helpful.txt | head -n 100 > sorted.customer_and_helpful.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 2 amazon_reviews_us_Books_v1_02.tsv > customerID.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@o[1@r[1@t[27@ed.customer_and_helpful.txt[C[C[C[C[C[CCcustomerID.txtUcustomerID.txtScustomerID.txtTcustomerID.txtOcustomerID.txtMcustomerID.txtEcustomerID.txtRcustomerID.txtScustomerID.txt/customerID.txt[C[C[C[C[C[C[C[C ID.txt[1PID.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PD.txt[C[CID.txt[C_.txt1.txt0.txt0.txt
+bash: CUSTOMERS/customerID_100.txt: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 2 sorted.customer_and_helpful.txt > CUSTOMERS/customerID_100.txt[C[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt[1PcustomerID_100.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customerID)[K_100.txt 
+15835
+6539
+5385
+4452
+3517
+3345
+3339
+3179
+3176
+3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head sorted.customer_and_helpful.txt 
+53083975	15835
+13525963	6539
+52027907	5385
+47847727	4452
+41706678	3517
+52188043	3345
+45685650	3339
+49095994	3179
+49931443	3176
+33296191	3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head sorted.customer_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13PcustomerID_100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -f 2 sorted.customer_and_helpful.txt > customerID_100.txt[C[C[C[C[C[C[C[C[C[C[1P[1@1
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 1 sorted.customer_and_helpful.txt > customerID_100.txt[C_100.txth_100.txte_100.txtk_100.txtl_100.txt[1P_100.txt[1P_100.txtl_100.txtp_100.txtf_100.txtu_100.txtl_100.txtn_100.txte_100.txts_100.txts_100.txt[C[C[C[C[1P[1@2
+]0;phans@f6linux17: ~phans@f6linux17:~$ ls
+[0m[01;34mAssigment-1[0m             [01;34mWorksheet-3[0m                        count.customers.52420369.txt    customer_and_helpful.txt.txt  [01;31mdatamash-1.3.tar.gz[0m  product_title.txt                testfile.txt
+Readme.txt              [01;34mWorksheet4-[0m                        customer100.txt                 [01;34mcustomers[0m                     [01;34mfake2[0m                productid_top3.txt               [01;34mworksheet1[0m
+Reverse.customerID.txt  a2.txt                             customerID.txt                  customers.12076615.txt        [01;34mfakeWorksheet3[0m       [01;34mproducts[0m                         [01;34mws2[0m
+Sorted.customerID.txt   amazon_reviews_us_Books_v1_02.tsv  customerID_100.txt              customers.52420369.txt        helpful100.txt       random.txt                       [01;34mws2_old[0m
+UserssphanDownloads     [01;34massign1[0m                            customerID_helpfulness_100.txt  customers.53096571.txt        [01;34mmyproject[0m            sorted.customer_and_helpful.txt  ws3.txt
+[01;34mWS3[0m                     cmds.log                           customer_and_helpful.txt        [01;34mdatamash-1.3[0m                  product_id.txt       [34;42mtemp[0m                             ws4.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ ^V[Kcut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv[C[C[C[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > Product[K[K[K[K[K[K[KproductID_and_helpful.txt
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "     " -f 4,9 amazon_reviews_us_Books_v1_02.tsv > productID_and_helpful.txt[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klscut -f 2 sorted.customer_and_helpful.txt > customerID_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P1 sorted.customer_and_helpful.txt > customerID_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24Phead sorted.customer_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13PcustomerID_100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -f 2 sorted.customer_and_helpful.txt > customerID_100.txtCUSTOMERS/customerID_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort -nk2 --reverse  customer_and_helpful.txt | head -n 100 > sorted.customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead customer_and_helpful.txt[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[53@cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[53Phead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[53@cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txtp_and_helpful.txtr_and_helpful.txto_and_helpful.txtd_and_helpful.txtu_and_helpful.txtc_and_helpful.txtt_and_helpful.txt[C
+]0;phans@f6linux17: ~phans@f6linux17:~$ sort -nk2 --reverse  customer_and_helpful.txt | head -n 100 > sorted.customer_and_helpful.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ sort -nk2 --reverse  customer_and_helpful.txt | head -n 100 > sorted.customer_and_helpful.txt[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[1@d[1@u[1@c[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txt[1P_and_helpful.txtp_and_helpful.txtr_and_helpful.txto_and_helpful.txtd_and_helpful.txtu_and_helpful.txtc_and_helpful.txtt_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 1 customer_and_helpful.txt > customer100.txt[C[C[C[C[1P100.txt[1P100.txt[1P100.txt[1P100.txt[1P100.txt[1P100.txt[1P100.txt[1P100.txt[100.txtr100.txtp100.txt[1P100.txt[1P100.txt[1P100.txtp100.txtr100.txto100.txtd100.txtu100.txtc100.txtt100.txt_100.txth100.txte100.txtl100.txtp100.txtf100.txtu100.txtl100.txtn100.txte100.txts100.txts100.txt_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@s[1@o[1@r[1@t[1@e[1@d[C[1@.[1@[[1P[1@p[1@r[1@o[20@duct_and_helpful.txt[C[C[C[1P[1@2
+cut: sorted.product_and_helpful.txt.txt: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 2 sorted.product_and_helpful.txt.txt > product_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcut -f 2 sorted.product_and_helpful.txt.txt > product_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead soe[Krted.product_and_helpful.txt 
+0670672238	15835
+0764553224	6539
+0553573403	5385
+0446677450	4452
+0064471195	3517
+0975991477	3345
+0833030477	3339
+0451191145	3179
+1932100385	3176
+1579550088	3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head sorted.product_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -f 2 sorted.product_and_helpful.txt.txt > product_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P
+]0;phans@f6linux17: ~phans@f6linux17:~$ cut -f 2 sorted.product_and_helpful.txt > product_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P_100.txt[1P100.txt[C_100.txt[1P[1@1
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 3
+question 3
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo 4[Kquestion 4
+
+************************question 4*******************************************
+]0;phans@f6linux17: ~phans@f6linux17:~$ alias I='ls -ltr'
+
+
+**************************question 5********************************************
+]0;phans@f6linux17: ~phans@f6linux17:~$ alias w='ls -la|wc'
+]0;phans@f6linux17: ~phans@f6linux17:~$ alias
+
+
+**********************question 6 **********************************************
+alias I='ls -ltr'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+alias w='ls -la|wc'
+]0;phans@f6linux17: ~phans@f6linux17:~$ vi .bashrc
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;57r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[57;1H".bashrc" 119L, 3819C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[33munset[m[36m color_prompt force_color_prompt[m
+
+[34m# If this is an xterm set the title to user@host:dir[m
+[33mcase[m [33m"[m[35m$TERM[m[33m"[m [33min[m
+xterm*|rxvt*[33m)[m
+    [35mPS1[m[33m="[m[35m\[\e[m[31m]0;[m[35m${debian_chroot[m[33m:+[m([35m$debian_chroot[m)[35m}[m[35m\u[m[31m@[m[35m\h[m[31m: [m[35m\w\a\][m[35m$PS1[m[33m"
+[m    [33m;;[m
+*[33m)
+[m    [33m;;
+esac[m
+
+[34m# enable color support of ls and also add handy aliases[m
+[33mif [[m [33m-x[m /usr/bin/dircolors [33m];[m [33mthen
+[m    [33mtest[m [33m-r[m ~/.dircolors [33m&&[m [33meval[m [33m"[m[35m$([m[35mdircolors -b ~/.dircolors[m[35m)[m[33m"[m [33m||[m [33meval[m [33m"[m[35m$([m[35mdircolors -b[m[35m)[m[33m"
+[m    [33malias [m[36mls[m[33m='[m[31mls --color=auto[m[33m'[m
+    [34m#alias dir='dir --color=auto'
+[m    [34m#alias vdir='vdir --color=auto'[m[19;5H[33malias [m[36mgrep[m[33m='[m[31mgrep --color=auto[m[33m'
+[m    [33malias [m[36mfgrep[m[33m='[m[31mfgrep --color=auto[m[33m'
+[m    [33malias [m[36megrep[m[33m='[m[31megrep --color=auto[m[33m'
+fi[m
+
+[34m# colored GCC warnings and errors
+#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+# some more ls aliases[m
+[33malias [m[36mll[m[33m='[m[31mls -alF[m[33m'
+alias [m[36mla[m[33m='[m[31mls -A[m[33m'
+alias[m [36ml[m=[33m'[m[31mls -CF[m[33m'
+alias[m [36mI[m=[33m'[m[31mls -ltr[m[33m'
+alias[m [36mw[m=[33m'[m[31mls -la|wc[m[33m'[m
+
+[34m# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert[m
+[33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//[m[33m'[m[35m\'[m[33m'[m[31m)"[m[33m'[m
+
+[34m# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+#if [ -f ~/.bash_aliases ]; then
+#    . ~/.bash_aliases
+#fi
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+#if ! shopt -oq posix; then
+#  if [ -f /usr/share/bash-completion/bash_completion ]; then
+#    . /usr/share/bash-completion/bash_completion
+#  elif [ -f /etc/bash_completion ]; then
+#    . /etc/bash_completion
+#  fi
+#fi[m[57;183H96,0-1[8CBot[33;1H[?25h[?25l[57;173H~@k[33;1H[57;173H   [32;1H[57;184H5,1  [32;1H[?25h[?25l[57;173H~@k[32;1H[57;173H   [31;1H[57;184H4[31;1H[?25h[?25l[57;173H~@k[31;1H[57;173H   [30;1H[57;184H3[30;1H[?25h[?25l[57;173H~@k[30;1H[57;173H   [29;1H[57;184H2[29;1H[?25h[?25l[57;173H~@k[29;1H[57;173H   [30;1H[57;184H3[30;1H[?25h[?25l[57;173H~@k[30;1H[57;173H   [31;1H[57;184H4[31;1H[?25h[?25l[57;173H~@k[31;1H[57;173H   [32;1H[57;184H5[32;1H[?25h[?25l[57;173H~@k[32;1H[57;173H   [31;1H[57;184H4[31;1H[?25h[?25l[57;173H~@k[31;1H[57;173H   [32;1H[57;184H5[32;1H[?25h[?25l[57;173Hi[32;1H[57;173H [32;1H[57;1H[1m-- INSERT --[m[57;13H[K[57;183H95,1[10CBot[32;1H[?25h[?25l[57;186H2[32;2H[?25h[?25l[57;186H3[32;3H[?25h[?25l[57;186H4[32;4H[?25h[?25l[57;186H5[32;5H[?25h[?25l[57;186H6[32;6H[?25h[?25l[57;186H7[32;7H[?25h[?25l [36mw[m=[33m'[m[31mls -la|wc[m[33m'[m[57;186H8[32;8H[?25h[?25l[36mw[m=[33m'[m[31mls -la|wc[m[33m'[m[32;20H[K[57;186H7[32;7H[?25h[?25l[57;186H6[32;6H[?25h[?25l[57;186H5[32;5H[?25h[?25l[57;186H4[32;4H[?25h[?25l[57;186H3[32;3H[?25h[?25l[57;186H4[32;4H[?25h[?25l[57;186H5[32;5H[?25h[?25l[57;186H6[32;6H[?25h[?25l[57;186H7[32;7H[?25h[?25l[57;186H8[32;8H[?25h[?25l[57;186H9[32;9H[?25h[?25l[57;186H10[32;10H[?25h[?25l[57;187H1[32;11H[?25h[?25l[57;187H0[32;10H[?25h[?25l[57;186H9 [32;9H[?25h[?25l[57;186H8[32;8H[?25h[?25l[57;184H4[31;8H[?25h[?25l[57;184H5[32;8H[?25h[?25l[57;186H7[32;7H[?25h[?25l[57;186H6[32;6H[?25h[?25l[57;186H5[32;5H[?25h[?25l[57;184H4[31;5H[?25h[?25l[57;186H4[31;4H[?25h[?25l[57;186H3[31;3H[?25h[?25l[57;186H2[31;2H[?25h[?25l[57;186H1[31;1H[?25h[?25l[57;186H2[31;2H[?25h[?25l[57;186H3[31;3H[?25h[?25l[57;186H4[31;4H[?25h[?25l[57;186H5[31;5H[?25h[?25l[57;186H6[31;6H[?25h[?25l[57;186H7[31;7H[?25h[?25l[57;186H8[31;8H[?25h[?25l[33m='[m[31mls -ltr[m[33m'[m[31;17H[K[57;186H7[31;7H[?25h[?25l[36malias[m=[33m'[m[31mls -ltr[m[33m'[m[31;16H[K[57;186H6[31;6H[?25h[?25l=[33m'[m[31mls -ltr[m[33m'[m[31;15H[K[57;186H5[31;5H[?25h[?25l=[33m'[m[31mls -ltr[m[33m'[m[31;14H[K[57;186H4[31;4H[?25h[?25l=[33m'[m[31mls -ltr[m[33m'[m[31;13H[K[57;186H3[31;3H[?25h[?25l=[33m'[m[31mls -ltr[m[33m'[m[31;12H[K[57;186H2[31;2H[?25h[?25l[33m='[m[31mls -ltr[m[33m'[m[31;11H[K[57;186H1[31;1H[?25h[?25l[36ma[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H2[31;2H[?25h[?25l[36ml[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H3[31;3H[?25h[?25l[36mi[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H4[31;4H[?25h[?25l[36ma[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H5[31;5H[?25h[?25l[36ms[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H6[31;6H[?25h[?25l[33malias[m [33m='[m[31mls -ltr[m[33m'[m[57;186H7[31;7H[?25h[?25l[36mI[m=[33m'[m[31mls -ltr[m[33m'[m[57;186H8[31;8H[?25h[?25l[57;184H5[32;8H[?25h[?25l[33m='[m[31mls -la|wc[m[33m'[m[32;19H[K[57;186H7[32;7H[?25h[?25l[36mw[m=[33m'[m[31mls -la|wc[m[33m'[m[57;186H8[32;8H[?25h[57;1H[K[32;7H[?25l[57;173H^[[32;7H[57;173H  [32;8H[57;183H95,7[10CBot[32;7H[?25h[?25l[57;173H:[32;7H[57;173H[K[57;1H:[?2004h[?25hx[?25l[?2004l".bashrc" 119L, 3819C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;phans@f6linux17: ~phans@f6linux17:~$ cd ~/datamash-1.3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kec[K[Kecho 7[Kquestion 7
+
+
+
+
+*************************question 7**************************************************
+]0;phans@f6linux17: ~phans@f6linux17:~$ ls
+[0m[01;34mAssigment-1[0m             [01;34mWorksheet4-[0m                        customerID.txt                  customers.52420369.txt  [01;34mmyproject[0m                    productid_top3.txt               [01;34mworksheet1[0m
+Readme.txt              a2.txt                             customerID_100.txt              customers.53096571.txt  productID_and_helpful.txt    [01;34mproducts[0m                         [01;34mws2[0m
+Reverse.customerID.txt  amazon_reviews_us_Books_v1_02.tsv  customerID_helpfulness_100.txt  [01;34mdatamash-1.3[0m            product__100.txt             random.txt                       [01;34mws2_old[0m
+Sorted.customerID.txt   [01;34massign1[0m                            customer_and_helpful.txt        [01;31mdatamash-1.3.tar.gz[0m     product_and_helpful.txt      sorted.customer_and_helpful.txt  ws3.txt
+UserssphanDownloads     cmds.log                           customer_and_helpful.txt.txt    [01;34mfake2[0m                   product_helpfulness_100.txt  sorted.product_and_helpful.txt   ws4.txt
+[01;34mWS3[0m                     count.customers.52420369.txt       [01;34mcustomers[0m                       [01;34mfakeWorksheet3[0m          product_id.txt               [34;42mtemp[0m
+[01;34mWorksheet-3[0m             customer100.txt                    customers.12076615.txt          helpful100.txt          product_title.txt            testfile.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ wc -l c[KcustomerID_100.txt 
+100 customerID_100.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ wc -l customerID_100.txt [C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[4@duct[1@_[1@1[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P p r o d u c t ) [1P _ 1 2 [1P 1 0 [1P [1P 0 0 . t x t 
+wc: product_100.txt: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ wc -l product_100.txt [C[1@_
+100 product__100.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 8
+
+
+
+
+******************************question 8*****************************************************
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo dat[K[K[Kdata [Kmesh was installed before th[K[Kthe start of this script
+
+
+
+######datamesh was installed before the start of this script
+]0;phans@f6linux17: ~phans@f6linux17:~$ cd ~/datamash-1.3
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ ./datamash  -W --headers ppearson 1:2 < ../customer_and_helpful.txt
+ppearson(helpful_votes)
+0.037735622697059
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd `[K~
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customer_and_helpful.txt
+customer_id	helpful_votes
+12076615	2
+12703090	5
+12257412	1
+50732546	2
+51964897	0
+31048862	2
+53000124	9
+29732693	3
+48541186	16
+]0;phans@f6linux17: ~phans@f6linux17:~$ tail[K[K[K[Khead customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[K./datamash  -W --headers ppearson 1:2 < ../customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[K./datamash  -W --headers ppearson 1:2 < ../customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/datamash-1.3[K
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ~/datamash-1.3head customer_and_helpful.txtcd ~[K./datamash  -W --headers ppearson 1:2 < ../customer_and_helpful.txt_.txt1.txt0.txt0.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtI.txtD.txt_.txth.txtelpfulness_100.txt.txt[1P.txt[1P.txt[1P.txt[1Ptxt
+./datamash: invalid input: field 2 requested, line 1 has only 1 fields
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd`[K~
+
+Command 'cd~' not found, did you mean:
+
+  command 'cdi' from deb cdo (1.9.9~rc1-1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cdp' from deb irpas (0.10-7)
+  command 'cdw' from deb cdw (0.8.1-1build4)
+  command 'cdo' from deb cdo (1.9.9~rc1-1)
+  command 'cdb' from deb tinycdb (0.78build1)
+
+Try: apt install <deb name>
+
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ~
+]0;phans@f6linux17: ~phans@f6linux17:~$ head [K[K[K[K[Kcd ~[K[K[K[Kcd~./datamash  -W --headers ppearson 1:2 < ../customerID_helpfulness_100.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/datamash-1.3[K
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ~/datamash-1.3[Kcd~./datamash  -W --headers ppearson 1:2 < ../customerID_helpfulness_100.txt[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customerId[K[KID_jh[K[Khelpfulness_100.txt 
+15835
+6539
+5385
+4452
+3517
+3345
+3339
+3179
+3176
+3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ ls
+[0m[01;34mAssigment-1[0m             [01;34mWorksheet4-[0m                        customerID.txt                  customers.52420369.txt  [01;34mmyproject[0m                    productid_top3.txt               [01;34mworksheet1[0m
+Readme.txt              a2.txt                             customerID_100.txt              customers.53096571.txt  productID_and_helpful.txt    [01;34mproducts[0m                         [01;34mws2[0m
+Reverse.customerID.txt  amazon_reviews_us_Books_v1_02.tsv  customerID_helpfulness_100.txt  [01;34mdatamash-1.3[0m            product__100.txt             random.txt                       [01;34mws2_old[0m
+Sorted.customerID.txt   [01;34massign1[0m                            customer_and_helpful.txt        [01;31mdatamash-1.3.tar.gz[0m     product_and_helpful.txt      sorted.customer_and_helpful.txt  ws3.txt
+UserssphanDownloads     cmds.log                           customer_and_helpful.txt.txt    [01;34mfake2[0m                   product_helpfulness_100.txt  sorted.product_and_helpful.txt   ws4.txt
+[01;34mWS3[0m                     count.customers.52420369.txt       [01;34mcustomers[0m                       [01;34mfakeWorksheet3[0m          product_id.txt               [34;42mtemp[0m
+[01;34mWorksheet-3[0m             customer100.txt                    customers.12076615.txt          helpful100.txt          product_title.txt            testfile.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ lshead customerID_helpfulness_100.txt [C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksork[Kted.customer_and_helpful.txt 
+53083975	15835
+13525963	6539
+52027907	5385
+47847727	4452
+41706678	3517
+52188043	3345
+45685650	3339
+49095994	3179
+49931443	3176
+33296191	3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head sorted.customer_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khead sorted.customer_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Khead customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K~/datamash-1.3
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ~/datamash-1.3head sorted.customer_and_helpful.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Khead customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K~/datamash-1.3[Kcd~./datamash  -W --headers ppearson 1:2 < ../customerID_helpfulness_100.txt[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksorted.[K.cy[Kustomer_and_helpful.txt 
+ppearson(15835)
+-0.11625457626232
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ ./datamash  -W --headers ppearson 1:2 < ../sorted.customer_and_helpful.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+0.0013830592752379
+]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ..
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 9
+question 9
+]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat <file> ` ; do total=$(echo $total+$i | bc);((count++));    done;[C[C[1@=[1P[1P[1P[1P[1P[1P[1P[1@c[1@u[1@s[1P[1P[1P[1@c[1@u[1@s[1@t[1@o[1@m[1@e[1@r[1@_[1@a[1@n[1@d[1@_[1@h[1@e[1@l[1@p[1@f[1@u[1@l[1@.[1@t[1@x[1@t[C[1P
+echo "scale=2; $total / $count" | bc
+^C
+
+]0;phans@f6linux17: ~phans@f6linux17:~$ 
+]0;phans@f6linux17: ~phans@f6linux17:~$ ^V[Kcount=0; total=0;count=0; total=0;^?[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat product.0385730586.txt ` ;[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@u[1@s[1@t[1@o[1@m[1@e[1@r[1@_[1@a[1@n[1@d[1@_[1@h[1@e[1@l[1@p[1@f[1@u[1@l[C[1P
+> do total=$(echo $total+$i | bc);((count++));
+> done;
+cat: customer_and_helpful: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ customers/[K[K[K[K[K[K[K[K[K[Kls customer_and_helpful.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead  customer_and_helpful.txt
+customer_id	helpful_votes
+12076615	2
+12703090	5
+12257412	1
+50732546	2
+51964897	0
+31048862	2
+53000124	9
+29732693	3
+48541186	16
+]0;phans@f6linux17: ~phans@f6linux17:~$ head  customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customer_and_helpful` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khead helpdf[K[Kful100.txt 
+helpful_votes
+2
+5
+1
+2
+0
+2
+9
+3
+16
+]0;phans@f6linux17: ~phans@f6linux17:~$ head helpful100.txt  customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customer_and_helpful` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@h[1@e[1@l[1@p[1@f[1@u[1@l[1@1[1@0[1@0
+cat: helpful100: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat helpful100` ; do total=$(echo $total+$i | bc);((count++)); done;[C[1P[1@`[C[C[C[1P[1@`
+cat: helpful100: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat helpful100` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead helpful100.txt [K customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customer_and_helpful` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kfor i in `cat customer_and_helpful.txt` ; do total=$(echo $total+$i | bc);((count++));    done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[K
+]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;for i in `cat helpful100` ; do total=$(echo $total+$i | bc);((count++)); done;
+cat: helpful100: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ ls
+[0m[01;34mAssigment-1[0m             [01;34mWorksheet4-[0m                        customerID.txt                  customers.52420369.txt  [01;34mmyproject[0m                    productid_top3.txt               [01;34mworksheet1[0m
+Readme.txt              a2.txt                             customerID_100.txt              customers.53096571.txt  productID_and_helpful.txt    [01;34mproducts[0m                         [01;34mws2[0m
+Reverse.customerID.txt  amazon_reviews_us_Books_v1_02.tsv  customerID_helpfulness_100.txt  [01;34mdatamash-1.3[0m            product__100.txt             random.txt                       [01;34mws2_old[0m
+Sorted.customerID.txt   [01;34massign1[0m                            customer_and_helpful.txt        [01;31mdatamash-1.3.tar.gz[0m     product_and_helpful.txt      sorted.customer_and_helpful.txt  ws3.txt
+UserssphanDownloads     cmds.log                           customer_and_helpful.txt.txt    [01;34mfake2[0m                   product_helpfulness_100.txt  sorted.product_and_helpful.txt   ws4.txt
+[01;34mWS3[0m                     count.customers.52420369.txt       [01;34mcustomers[0m                       [01;34mfakeWorksheet3[0m          product_id.txt               [34;42mtemp[0m
+[01;34mWorksheet-3[0m             customer100.txt                    customers.12076615.txt          helpful100.txt          product_title.txt            testfile.txt
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat customers.53096571.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customers.53096571.txt 
+9
+12
+]0;phans@f6linux17: ~phans@f6linux17:~$ vi helpful100.txt 
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;57r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[57;1H"helpful100.txt" 3105521L, 7024594C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1Hhelpful_votes
+2
+5
+1
+2
+0
+2
+9
+3
+16
+0
+0
+1
+14
+1
+16
+13
+17
+16
+1
+1
+1
+5
+21
+6
+11
+10
+1
+0
+1
+13
+0
+12
+6
+27
+2
+11
+0
+1
+4
+16
+0
+16
+0
+3
+1
+3
+4
+6
+1
+0
+1
+27
+0
+0
+7[57;183H1,1[11CTop[1;1H[?25h[?25l[57;173Hd[1;1H[?25h[?25l[57;174Hd[1;1H[57;173H  [1;1H[1;56r[56;1H
+[1;57r[56;1H2[57;1H[K[57;183H1,1[11CTop[1;1H[?25h[?25l[57;173H:[1;1H[57;173H[K[57;1H:[?2004h[?25hx[?25l[?2004l"helpful100.txt" 3105520L, 7024580C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;phans@f6linux17: ~phans@f6linux17:~$ vi helpful100.txt [10@head customers.53096571[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customers.53096571.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kfor i in `cat helpful100` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kfor i in `cat helpful100` ; do total=$(echo $total+$i | bc);((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[K
+]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;vi helpful100.txt [10@head customers.53096571[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customers.53096571.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead customers.53096571.txt [K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pvi helpful100[C[C[C[C[C[1Pcount=0; total=0;[Kcount=0; total=0;vi helpful100.txt [10@head customers.53096571[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customers.53096571.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@h[1@e[1@l[1@p[1@f[1@u[1@l[1@1[1@0[1@0
+cat: helpful100: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat helpful100 ` ; do total=$(echo $total+$i | bc);((count++));    done;[C[1@.[1@t[1@x[1@t
+^C
+]0;phans@f6linux17: ~phans@f6linux17:~$ exit
+
+Script done on 2021-09-30 06:09:47+00:00 [COMMAND_EXIT_CODE="130"]
