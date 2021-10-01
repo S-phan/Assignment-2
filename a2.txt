@@ -47,7 +47,14 @@ product_id
 ]0;phans@f6linux17: ~phans@f6linux17:~$ sort product_title.txt|uniq|wc -l
 713712
 ]0;phans@f6linux17: ~phans@f6linux17:~$ sort -nk2 --reverse  customer_and_helpful.txt | head -n 100 > sorted.customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho Question 2
-Question 2
+
+
+
+
+**********************************Question 2************************************************
+
+
+
 ]0;phans@f6linux17: ~phans@f6linux17:~$ head -n 1 amazon_reviews_us_Books_v1_02.tsv
 marketplace	customer_id	review_id	product_id	product_parent	product_title	product_category	star_rating	helpful_votes	total_votes	vine	verified_purchase	review_headline	review_body	review_date
 ]0;phans@f6linux17: ~phans@f6linux17:~$ cut -d "     " -f 2,9 amazon_reviews_us_Books_v1_02.tsv > Customer[K[K[K[K[K[K[K[Kcustomer_id_helpfulness.txt
@@ -77,6 +84,8 @@ customer_id	star_rating
 53000124	4
 29732693	4
 48541186	5
+
+********************************* Question 3 ***************************
 ]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 3
 question 3
 ]0;phans@f6linux17: ~phans@f6linux17:~$ head -n 1 amazon_reviews_us_Books_v1_02.tsv
@@ -109,9 +118,15 @@ product_id	star_rating
 0805076069	4
 1581603681	4
 0300108834	5
+
+************************ question 4 ******************************
+
 ]0;phans@f6linux17: ~phans@f6linux17:~$ echo 4 
 4
 ]0;phans@f6linux17: ~phans@f6linux17:~$ alias I='ls -ltr'
+
+************************* question 5 ******************************
+
 ]0;phans@f6linux17: ~phans@f6linux17:~$ echo question 5
 question 5
 ]0;phans@f6linux17: ~phans@f6linux17:~$ alias w='ls -la|wc'
@@ -211,7 +226,14 @@ alias[m [36mw[m=[33m'[m[31mls -la|wc[m[33m'[m
 [34m# Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert[m
 [33malias [m[36malert[m[33m='[m[31mnotify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e [m[33m'[m[35m\'[m[33m'[m[31ms/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$///[m[92;1H[33m'[m[35m\'[m[33m'[m[31m)"[m[33m'[m[93;140H95,7[10C28%[87;7H[?25h[?25l[93;130H^[[87;7H[93;130H  [87;7H[93;130H^[[87;7H[93;130H  [87;7H[?25h[?25l[93;130H:[87;7H[93;1H[K[93;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[93;1H[K[93;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;phans@f6linux17: ~phans@f6linux17:~$ echo QA[K[Kquestion 7
-question 7
+
+
+
+
+******************************question 7*******************************
+
+
+
 ]0;phans@f6linux17: ~phans@f6linux17:~$ wc -l customer_id_helpfulness.txt
 3105521 customer_id_helpfulness.txt
 ]0;phans@f6linux17: ~phans@f6linux17:~$ Q[Ksort -nk2 --reverse  customer_id_helpfulness.txt | head -n 100 > sorted.customer_and_helpful.txt[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[27@customer_id_helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccustomer_id_helpfulness.txt sorted.customer_and_helpful.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K customer_id_helpfulness.txt1customer_id_helpfulness.txt0customer_id_helpfulness.txt0customer_id_helpfulness.txt_customer_id_helpfulness.txt
@@ -1214,6 +1236,10 @@ ppearson(star_rating)
 0.083405867363171
 ]0;phans@f6linux17: ~/datamash-1.3phans@f6linux17:~/datamash-1.3$ cd ..
 ]0;phans@f6linux17: ~phans@f6linux17:~$ echo QW[K[KQuestion 9
+
+
+
+
 Question 9
 ]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;
 ]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[1P[1P[1P[1P[14@customerID.txt

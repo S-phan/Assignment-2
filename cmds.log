@@ -1,14 +1,3 @@
-  781  tail helpful.count.txt
-  782  head -20 helpful.count.txt
-  783  history > cmds.log
-  784  ls
-  785  rm customerID.txt.sorted.uni
-  786  rm customerID.txt.sorted.uniqcounts.reversed 
-  787  rm customerID.txt.sorted.uniqcounts 
-  788  ls
-  789  rm customerID.txt
-  790  rm customerID.txt.sorted
-  791  ls
   792  head UserssphanDownloads 
   793  ls
   794  cut -f 4 amazon_reviews_us_Books_v1_02.tsv > product.txt
@@ -997,4 +986,15 @@
  1777  head product_helpfulness_100.txt
  1778  tail product_helpfulness_100.txt
  1779  echo range is 15835 and 1132
- 1780  history > cmds.log
+ 1780  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1781  script a2.txt
+ 1782  vi a2.txt
+ 1783  cp a2.txt Assignment-2/
+ 1784  cd Assignment-2/
+ 1785  ls
+ 1786  git status
+ 1787  git add .
+ 1788  git commit -m "a2 question 1-8"
+ 1789  git push https://github.com/S-phan/Assignment-2.git
+ 1790  cd ..
+ 1791  history > cmds.log 
