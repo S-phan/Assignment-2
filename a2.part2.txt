@@ -1,0 +1,81 @@
+Script started on 2021-10-01 00:36:56+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="106" LINES="50"]
+]0;phans@f6linux17: ~phans@f6linux17:~$ head product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;head product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ [50Pecho "scale =2; $total / $count" | bc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+1983.42
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+15835
+6539
+5385
+4452
+3517
+3345
+3339
+3179
+3176
+3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+1163
+1157
+1154
+1154
+1150
+1140
+1137
+1133
+1132
+1132
+]0;phans@f6linux17: ~phans@f6linux17:~$ tail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ [50Pecho "scale =2; $total / $count" | bc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ [50Pecho "scale =2; $total / $count" | bc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pecho range 15835 and 1132
+range 15835 and 1132
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcount=0; total=0;for i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;echo range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead product_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;
+]0;phans@f6linux17: ~phans@f6linux17:~$ for i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat customerID_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ [50Pecho "scale =2; $total / $count" | bc
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+1983.42
+]0;phans@f6linux17: ~phans@f6linux17:~$ echo "scale =2; $total / $count" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfor i in `cat product_helpfulness_100.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;[A]0;phans@f6linux17: ~phans@f6linux17:~$ count=0; total=0;[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pecho range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcount=0; total=0;echo range 15835 and 1132[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail customerID_helpfulness_100.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[1@d[1@u[1@c[1@t[C[1@_
+head: cannot open 'product__helpfulness_100.txt' for reading: No such file or directory
+]0;phans@f6linux17: ~phans@f6linux17:~$ head product__helpfulness_100.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K product_helpfulness_100.txt[1Pproduct_helpfulness_100.txt
+15835
+6539
+5385
+4452
+3517
+3345
+3339
+3179
+3176
+3081
+]0;phans@f6linux17: ~phans@f6linux17:~$ head product_helpfulness_100.txt[C[C[1P product_helpfulness_100.txt[1P product_helpfulness_100.txt[1P product_helpfulness_100.txt[1P product_helpfulness_100.txtt product_helpfulness_100.txta product_helpfulness_100.txti product_helpfulness_100.txtl product_helpfulness_100.txt
+1163
+1157
+1154
+1154
+1150
+1140
+1137
+1133
+1132
+1132
+]0;phans@f6linux17: ~phans@f6linux17:~$ chec[K[K[K[Kecho range is 11[K[K15835 and 1132
+range is 15835 and 1132
+]0;phans@f6linux17: ~phans@f6linux17:~$ exit
+
+Script done on 2021-10-01 00:39:34+00:00 [COMMAND_EXIT_CODE="0"]
